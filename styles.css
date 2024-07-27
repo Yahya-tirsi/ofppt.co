@@ -1,0 +1,199 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-image: url(/img/BackgroundWhita.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    /* background: #f4f4f4; */
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #fff; 
+    margin: 1rem;
+    border-radius: 35px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+header nav ul li a {
+    color: gray;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: black;
+    /* border-bottom: 2px solid black; */
+    transition: 0.1s;
+}
+
+/* Main Content Styling */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+/* Posts Section Styling */
+#posts {
+    flex: 3;
+}
+
+.post {
+    background: #fff;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+    margin-bottom: 0.5rem;
+}
+
+/* Sidebar Styling */
+aside {
+    flex: 1;
+    background: #fff;
+    padding: 1rem;
+    margin-left: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ************************* */
+/* ------ Cours Page ------- */
+/* ************************* */
+
+section h2{
+    text-align: center;
+    margin-top: 5rem;
+}
+.division{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem 2rem;
+}
+.division a{
+    background-color: white;
+    border: 2px dashed black;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.division a:hover{
+    font-size: 22px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+#division1{
+    position: relative;
+    transform: translate(0px,0px);
+    animation: division1 2s;
+}
+#division2{
+    position: relative;
+    transform: translate(0px,0px);
+    animation: division2 2s;
+}
+@keyframes division1 {
+    0%{transform: translate(-500px,0px);}
+    100%{transform: translate(0px,0px);}
+}
+@keyframes division2 {
+    0%{transform: translate(500px,0px);}
+    100%{transform: translate(0px,0px);}
+}
+/* ************************* */
+/* ------ About Page ------- */
+/* ************************* */
+
+/* Basic Reset */
+
+
+/* ************************* */
+/* ------ Dev digital 1er ------- */
+/* ************************* */
+
+.container{
+    background-color: #fff; 
+    margin: 1rem;
+    border-radius: 35px;
+    border: 2px solid gray;
+    color: black;
+    padding: 1.5rem;
+}
+.container h2{
+    margin-top: 0;
+}
+.container a{
+    color: black;
+    transition: 0.1s;
+}
+.container a:hover{
+    color: gray;
+}
+.container button{
+    background-color: #00ab6b;
+    border: none;
+    padding: 0.8rem 5rem;
+    border-radius: 24px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+    transition: 0.3s;
+}
+.container button:hover{
+    background-color: green;
+}
+
+.container .ul{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
