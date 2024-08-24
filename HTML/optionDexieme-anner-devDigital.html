@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h2>My Blog</h2>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/cours.html">Cours</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+            
+        </nav>
+        <button>Login</button>
+    </header>
+
+
+    <section>
+        <a href="/dexiemeanne.html">
+            <div class="retour">
+                <i class="fa-solid fa-angles-left" style="margin-right: 0.3rem; font-size: 23px;"></i>
+                <p>Retour</p>
+            </div>
+        </a>
+        <h1>Sélectionnez l'option</h1>
+        <p class="para">Choisissez une option</p>
+        <div class="division">
+
+                <div class="radio-button">
+                    <input name="radio-group" id="dWebFullStuck" class="radio-button__input" type="radio">
+                    <label for="dWebFullStuck" class="radio-button__label">
+                      <span class="radio-button__custom"></span>
+                      Développement Digital option Web Full Stack
+                    </label>
+                </div>
+
+            <div class="radio-button">
+                <input name="radio-group" id="dAppMobile" class="radio-button__input" type="radio">
+                <label for="dAppMobile" class="radio-button__label">
+                  <span class="radio-button__custom"></span>
+                  Développement Digital option Applications Mobiles
+                </label>
+            </div>
+    </div>
+
+    <button class="buttonContinue" id="btnDivision" onclick="btnCHoisdexiemeAnner()" >
+    <span class="button-content">Continue</span>
+    </button>
+
+    <div class="errorBtnClick">
+        <i class="fa-solid fa-circle-exclamation" style="color: #ffffff; margin-right: 0.6rem; font-size: 20px;"></i>
+        <p>Veuillez choisir une option</p>
+    </div>
+    </section>
+
+
+
+    <script src="/scripts.js"></script>
+</body>
+</html>
