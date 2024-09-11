@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body onload="headerPages()">
+
+    <!-- Header -->
+    <header class="header">
+    </header>
+
+
+    <section>
+        <a href="/Niveau-Technicien/chois-anner-assistant-administratif.html">
+            <div class="retour">
+                <i class="fa-solid fa-angles-left" style="margin-right: 0.3rem; font-size: 23px;"></i>
+                <p>Retour</p>
+            </div>
+        </a>
+        <h1>Sélectionner l'option (3ème année)</h1>
+        <p class="para">Choisissez une option</p>
+        <div class="division">
+            <div class="radio-button">
+                <input name="radio-group" id="AA3emeOC" class="radio-button__input" type="radio">
+                <label for="AA3emeOC" class="radio-button__label">
+                  <span class="radio-button__custom"></span>
+                  Option Commerce
+                </label>
+            </div>
+            <div class="radio-button">
+                <input name="radio-group" id="AA3emeOG" class="radio-button__input" type="radio">
+                <label for="AA3emeOG" class="radio-button__label">
+                  <span class="radio-button__custom"></span>
+                  Option Gestion
+                </label>
+            </div>
+            <div class="radio-button">
+                <input name="radio-group" id="AA3emeOCOM" class="radio-button__input" type="radio">
+                <label for="AA3emeOCOM" class="radio-button__label">
+                  <span class="radio-button__custom"></span>
+                  Option Comptabilité
+                </label>
+            </div>
+        </div>
+
+        <button class="buttonContinue" onclick="btnCHoisAAoption3eme()">
+            <span class="button-content" >Continue</span>
+        </button>
+
+        <div class="errorBtnClick">
+            <i class="fa-solid fa-circle-exclamation" style="color: #ffffff; margin-right: 0.6rem; font-size: 20px;"></i>
+            <p>Veuillez choisir une option</p>
+        </div>
+    </section>
+
+
+    <script src="/scripts.js"></script>
+</body>
+</html>
