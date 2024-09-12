@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body onload="headerPages()">
+
+    <!-- Header -->
+    <header class="header">
+    </header>
+
+    <section>
+
+        <h1>Sélectionnez l'option</h1>
+        <p class="para">Choisissez une option</p>
+        <div class="division">
+                <div class="radio-button">
+                    <input name="radio-group" id="efmInfra1ere" class="radio-button__input" type="radio">
+                    <label for="efmInfra1ere" class="radio-button__label">
+                      <span class="radio-button__custom"></span>
+                      EFMs Infrastructure Digitale (1er année)
+                    </label>
+                </div>
+                <div class="radio-button">
+                    <input name="radio-group" id="efmInfraRS" class="radio-button__input" type="radio">
+                    <label for="efmInfraRS" class="radio-button__label">
+                      <span class="radio-button__custom"></span>
+                      EFMs Infrastructure digitale option Réseaux et systèmes
+                    </label>
+                </div>
+        </div>
+
+        <button class="buttonContinue" id="btnDivision" onclick="btnCHoisEFMinfra()" >
+        <span class="button-content">Continue</span>
+        </button>
+
+        <div class="errorBtnClick">
+            <i class="fa-solid fa-circle-exclamation" style="color: #ffffff; margin-right: 0.6rem; font-size: 20px;"></i>
+            <p>Veuillez choisir une option</p>
+        </div>
+    </section>
+
+
+    <script src="/scripts.js"></script>
+</body>
+</html>
