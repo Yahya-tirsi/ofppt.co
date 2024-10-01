@@ -6,20 +6,10 @@
     <title>Simple Blog</title>
     <link rel="stylesheet" href="/styles.css">
 </head>
-<body id="body">
+<body id="body" onload="headerPages()">
+
     <!-- Header -->
-    <header>
-        <h2>My Blog</h2>
-        <nav>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/index.html">Cours</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
-            
-        </nav>
-        <button>Login</button>
+    <header class="header">
     </header>
 
     <section class="container">
@@ -29,9 +19,23 @@
     </section>
 
 
-    <footer>
-        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    <footer class="footer">
+        <div class="footer-left">
+            <div class="footer-logo">
+                <img src="logo.png" alt="Logo"> <!-- Replace with your logo image path -->
+                <span>TextToSpeech</span>
+            </div>
+            <p>Kemp house 160 city road London UK</p>
+            <p>© 2024 All rights reserved. VOIX LTD</p>
+        </div>
+        <div class="footer-right">
+            <a href="#">Product</a>
+            <a href="#">Pricing</a>
+            <a href="#">FAQ</a>
+            <a href="#">Terms of services</a>
+            <a href="#">Privacy policy</a>
+        </div>
     </footer>
-    <script src="scripts.js"></script>
+    <script src="/scripts.js"></script>
 </body>
 </html>
