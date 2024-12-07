@@ -5,33 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Blog</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
-<body>
-    <header>
-        <h2>My Blog</h2>
-        <nav>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/index.html">Cours</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
-            
-        </nav>
-        <button>Login</button>
+<body onload="headerPages()">
+
+    <!-- Header -->
+    <header class="header">
     </header>
 
     <section>
-        <h2>Sélectionnez la division</h2>
+
+        <h1>Sélectionnez la division</h1>
+        <p class="para">Choisissez une option</p>
         <div class="division">
-            <a href="/chuois.html" id="division1">Technicien Spécialisé</a>
-            <a href="" id="division2">Niveau Technicien</a>
+                <div class="radio-button">
+                    <input name="radio-group" id="radio1" class="radio-button__input" type="radio">
+                    <label for="radio1" class="radio-button__label">
+                      <span class="radio-button__custom"></span>
+                      Technicien Spécialisé
+                    </label>
+                </div>
+                <div class="radio-button">
+                    <input name="radio-group" id="radio2" class="radio-button__input" type="radio">
+                    <label for="radio2" class="radio-button__label">
+                      <span class="radio-button__custom"></span>
+                      Niveau Technicien
+                    </label>
+                </div>
+        </div>
+
+        <button class="buttonContinue" id="btnDivision" onclick="btnCHoisDivision()" >
+        <span class="button-content">Continue</span>
+        </button>
+
+        <div class="errorBtnClick">
+            <i class="fa-solid fa-circle-exclamation" style="color: #ffffff; margin-right: 0.6rem; font-size: 20px;"></i>
+            <p>Veuillez choisir une option</p>
         </div>
     </section>
 
-    <footer>
-        <p>&copy; 2024 My Blog. All rights reserved.</p>
-    </footer>
+
     <script src="scripts.js"></script>
 </body>
 </html>
