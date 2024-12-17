@@ -6,43 +6,149 @@
     <title>Simple Blog</title>
     <link rel="stylesheet" href="/styles.css">
 </head>
-<body id="body">
-    <header>
-        <h2>My Blog</h2>
-        <nav>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/index.html">Cours</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
-            
-        </nav>
-        <button>Login</button>
+<body id="body" onload="headerPages(),footerPages()">
+
+    <header class="header">
     </header>
 
     <section class="container">
-        <h2>Développement Digital</h2>
-        <p>1ere Année : Développement Digital</p>
+        <h1>Développement Digital</h1>
+        <p><a href="/AnnerChios/premieranne.html">Technicien Spécialisé (1ere Année) </a>> Développement Digital</p>
+
+        <table border="1">
+            <tr>
+                <th>Module</th>
+                <th>MHT</th>
+                <th>Coef</th>
+                <th>EFM Régional</th>
+                <th>Telecharger les cours</th>
+            </tr>
+            <tr>
+                <td>Arabe</td>
+                <td></td>
+                <td>2</td>
+                <td>Non</td>
+                <td>Non</td>
+            </tr>
+            <tr>
+                <td>Français</td>
+                <td></td>
+                <td>3</td>
+                <td>Non</td>
+                <td>Non</td>
+            </tr>
+            <tr>
+                <td>Anglais technique / Espagnole</td>
+                <td></td>
+                <td>2</td>
+                <td>Non</td>
+                <td>Non</td>
+            </tr>
+            <tr>
+                <td>Culture entrepreneuriale-Partie 1</td>
+                <td></td>
+                <td>2</td>
+                <td>Non</td>
+                <td><a href="/pdf/CEP1 (2).pdf" download="CULTURE ENTREPRENEURIALE partie1"><button>Télécharger cours</button></a></td>
+            </tr>
+            <tr>
+                <td>Compétences comportementales et sociales</td>
+                <td></td>
+                <td>2</td>
+                <td>Non</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Entrepreneuriat-PIE 1</td>
+                <td></td>
+                <td>2</td>
+                <td>Non</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Culture et techniques avancées du numérique</td>
+                <td></td>
+                <td>2</td>
+                <td>Non</td>
+                <td><a href="/pdf/CEP1 (2).pdf" download="CULTURE ENTREPRENEURIALE partie1"><button>Télécharger cours</button></a></td>
+            </tr>
+            <tr>
+                <td>Se situer au regard du métier et de la démarche de formation</td>
+                <td></td>
+                <td>2</td>
+                <td>Non</td>
+                <td><a href="/pdf/guide-de-soutien-metier-et-formation-developpement-digital-v21092021-6156f0cb54a0d.pdf" download="CULTURE ENTREPRENEURIALE partie1"><button>Télécharger cours</button></a></td>
+            </tr>
+            <tr>
+                <td>Acquérir les bases de l’algorithmique</td>
+                <td></td>
+                <td>2</td>
+                <td>Non</td>
+                <td><a href="/pdf/resume-theorique-m102-0311-6182a97340fbc.pdf" download="CULTURE ENTREPRENEURIALE partie1"><button>Télécharger cours</button></a></td>
+            </tr>
+            <tr>
+                <td>Programmer en Orienté Objet</td>
+                <td></td>
+                <td>2</td>
+                <td>Non</td>
+                <td><a href="/pdf/m103-resume-cours-theorique-6156f136c407b.pdf" download="CULTURE ENTREPRENEURIALE partie1"><button>Télécharger cours</button></a></td>
+            </tr>
+            <tr>
+                <td>Développer des sites web statiques</td>
+                <td>120</td>
+                <td>3</td>
+                <td><div class="badge">Oui</div></td>
+                <td><a href="/pdf/CEP1 (2).pdf" download="CULTURE ENTREPRENEURIALE partie1"><button>Télécharger cours</button></a></td>
+            </tr>
+            <tr>
+                <td>Programmer en JavaScript</td>
+                <td>120</td>
+                <td>3</td>
+                <td><div class="badge">Oui</div></td>
+                <td>
+                    <a href="/pdf/CEP1 (2).pdf" download="CULTURE ENTREPRENEURIALE partie1"><button>Télécharger cours</button></a>
+                    <a href="/pdf/tp-m105-0804-625063290c7cc.pdf" download="TPs Programmer en JavaScript"><button>Télécharger TP</button></a>
+                </td>
+            </tr>
+            <tr>
+                <td>Manipuler des bases de données</td>
+                <td></td>
+                <td>2</td>
+                <td>Non</td>
+                <td><a href="/pdf/CEP1 (2).pdf" download="CULTURE ENTREPRENEURIALE partie1"><button>Télécharger cours</button></a></td>
+            </tr>
+            <tr>
+                <td>Développer des sites web dynamiques</td>
+                <td>120</td>
+                <td>3</td>
+                <td><div class="badge">Oui</div></td>
+                <td>
+                    <a href="/pdf/resume-theorique-m107-2203-6246f60d6b994 (1).pdf" download="CULTURE ENTREPRENEURIALE partie1"><button>Télécharger cours</button></a>
+                    <a href="/pdf/tp-m105-0804-625063290c7cc.pdf" download="TPs Développer des sites web dynamiques"><button>Télécharger TP</button></a>
+                </td>
+            </tr>
+            <tr>
+                <td>S’initier à la sécurité des systèmes d’information</td>
+                <td>0</td>
+                <td>2</td>
+                <td>Non</td>
+                <td>
+                    <a href="/pdf/resume-theorique-m108-3005-6298a1255e18a.pdf" download="S’initier à la sécurité des systèmes d’information"><button>Télécharger cours</button></a>
+                </td>
+            </tr>
+        </table>
+
         <ul class="ul">
-            <li><a href="/HTML/culture1er.html">Culture entrepreneuriale-Partie 1</a></li>
-            <li><a href="/HTML/culture-et-techniques-du-numerique.html">Culture et techniques avancées du numérique</a></li>
-            <li><a href="/HTML/se-situer-au-regard-du-metier-et-de-la-demarche-de-formation.html">Se situer au regard du métier et de la démarche de formation</a></li>
-            <li><a href="/HTML/acquerir-les-bases-de-lalgorithmique.html">Acquérir les bases de l’algorithmique</a></li>
-            <li><a href="/HTML/programmer-en-oriente-objet.html">Programmer en Orienté Objet</a></li>
-            <li><a href="/HTML/developper-des-sites-web-statiques.html">Développer des sites web statiques</a></li>
-            <li><a href="/HTML/programmer-en-javascript.html">Programmer en JavaScript</a></li>
-            <li><a href="/HTML/manipuler-des-bases-de-donnees.html">Manipuler des bases de données</a></li>
-            <li><a href="/HTML/developper-des-sites-web-dynamiques.html">Développer des sites web dynamiques</a></li>
-            <li><a href="/HTML/sinitier-a-la-securite-des-systemes-dinformation.html">S’initier à la sécurité des systèmes d’information</a></li>
+            <li><a href="/HTML/optionDexieme-anner-devDigital.html">Passer au deuxième année</a></li>
         </ul>
 
     </section>
 
 
-    <footer>
-        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    <!-- Footer -->
+    <footer class="footer">
     </footer>
-    <script src="scripts.js"></script>
+
+    <script src="/scripts.js"></script>
 </body>
 </html>

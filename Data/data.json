@@ -1,0 +1,189 @@
+{
+    "sections": [
+      {
+        "title": "Les plus populaires dans Développement Digital",
+        "posts": [
+          {
+            "image": "/pdf/Développement Digital/2eme anner/EFF/img/Capture d’écran 2024-12-02 212321.jpg",
+            "title": "EFF Juin 2023",
+            "author": "Session de Juin 2023",
+            "badge": "2eme Année",
+            "pdf":"/pdf/Développement Digital/2eme anner/EFF/Corrigé DEVOWFS-V1.pdf"
+          },
+          {
+            "image": "/pdf/Développement Digital/2eme anner/Cours/img/Capture d’écran 2024-12-02 211225.jpg",
+            "title": "Introcution à Redux",
+            "author": "front-end",
+            "badge": "2eme Année",
+            "pdf": "/pdf/Développement Digital/2eme anner/Cours/CH11 – Introduction à Redux.pdf"
+          },
+          {
+            "image": "/pdf/Développement Digital/2eme anner/EFM/Front End/img/Capture d’écran 2024-12-02 190236.jpg",
+            "title": "Correction controle front-end",
+            "author": "Casablanca",
+            "badge": "2eme Année",
+            "pdf":"/pdf/Développement Digital/2eme anner/EFM/Front End/Correction EFM régional front end casablanca 2022-2023.pdf"
+          },
+          {
+            "image": "/pdf/Développement Digital/2eme anner/EFM/Front End/img/Capture d’écran 2024-12-02 210011.jpg",
+            "title": "EFM front-end React",
+            "author": "Tanger-Tetouan",
+            "badge": "2eme Année",
+            "pdf": "/pdf/Développement Digital/2eme anner/EFM/Front End/efm react 2023 (1).pdf"
+          },
+          {
+            "image": "/pdf/Développement Digital/2eme anner/EFM/Front End/img/Capture d’écran 2024-12-02 210539.jpg",
+            "title": "EFM front-end",
+            "author": "Souss Massa",
+            "badge": "2eme Année",
+            "pdf": "/pdf/Développement Digital/2eme anner/EFM/Front End/efm régionale souss massa.pdf"
+          },
+          {
+            "image": "/pdf/Développement Digital/2eme anner/Cours/img/Capture d’écran 2024-12-02 211623.jpg",
+            "title": "State in ReactJS",
+            "author": "front-end",
+            "badge": "2eme Année",
+            "pdf":"/pdf/EFM Développement Digital/DEV-M107-Corrige (1).pdf"
+          }
+        ]
+      },
+      {
+        "title": "Les plus populaires dans Infrastructure Digitale",
+        "posts": [
+          {
+            "image": "/pdf/EFM infrastructure digital/img/Capture d’écran 2024-12-03 214156.jpg",
+            "title": "EFM Securiter d'un infrastricture digital",
+            "author": "Rabat-Salee-Knitra",
+            "badge": "1ere Année",
+            "ville": "RABAT-SALÉ-KENITRA",
+            "pdf":"/pdf/EFM infrastructure digital/CamScanner-23-06-2024-13.57-1.pdf"
+          },
+          {
+            "image": "/pdf/EFM infrastructure digital/img/Capture d’écran 2024-12-03 214819.jpg",
+            "title": "EFM Linux 2022/2023",
+            "author": "RABAT-SALÉ-KENITRA",
+            "badge": "1ere Année",
+            "ville": "RABAT-SALÉ-KENITRA",
+            "pdf":"/pdf/EFM infrastructure digital/CORRIGE-EFMR-Administration-Linux.pdf"
+          },
+          {
+            "image": "/pdf/EFM infrastructure digital/img/Capture d’écran 2024-12-03 215211.jpg",
+            "title": "EFM Conception d'un réseau informatique",
+            "author": "Béni Mellal-Khénifra",
+            "badge": "1ere Année",
+            "ville": "Béni Mellal-Khénifra",
+            "pdf":"/pdf/EFM infrastructure digital/EFM-régionale-BMKH-2022-avec-correction.pdf"
+          },
+          {
+            "image": "/pdf/EFM infrastructure digital/img/Capture d’écran 2024-12-03 220331.jpg",
+            "title": "EFM Linux 2022/2023",
+            "author": "Béni Mellal Khénifra",
+            "badge": "1ere Année",
+            "ville": "Béni Mellal Khénifra",
+            "pdf":"/pdf/EFM infrastructure digital/Efm-region-Administration-sous-Linux-Beni-Mellal-Khenifra-2-1.pdf"
+          },
+          {
+            "image": "/pdf/EFM infrastructure digital/img/Capture d’écran 2024-12-03 221133.jpg",
+            "title": "EFM Windows 2023",
+            "author": "Casa-Settat",
+            "badge": "1ere Année",
+            "ville": "Casa-Settat",
+            "pdf":"/pdf/EFM infrastructure digital/EFMR-administration-windows-CASA-2023.pdf"
+          },
+          {
+            "image": "/pdf/EFM infrastructure digital/img/Capture d’écran 2024-12-03 221954.jpg",
+            "title": "EFM système d’exploitation Corrigé",
+            "author": "RABAT-SALÉ-KENITRA",
+            "badge": "1ere Année",
+            "ville": "RABAT-SALÉ-KENITRA",
+            "pdf":"/pdf/EFM infrastructure digital/EFMR-Fonctionnement-systeme-exploitation-corrige.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Les plus populaires dans Gestion des Entreprises",
+        "posts": [
+          {
+            "image": "/pdf/Gestion dentroprise/1ere anner/img/Cours-Management-des-organisations.jpg",
+            "title": "Management des organisations",
+            "author": "Cours",
+            "badge": "1ere Année",
+            "ville": "casa",
+            "pdf": "/pdf/Cours-Management-des-organisations.pdf"
+          },
+          {
+            "image": "/pdf/Gestion dentroprise/1ere anner/img/M106-Elements-de-correction.jpg",
+            "title": "EFM Gestion et Commerce 2023-2024",
+            "author": "RABAT-SALÉ-KENITRA",
+            "badge": "1ere Année",
+            "ville": "casa",
+            "pdf": "/pdf/Gestion dentroprise/1ere anner/M106-Elements-de-correction.pdf"
+          },
+          {
+            "image": "/pdf/Gestion dentroprise/1ere anner/img/Capture d’écran 2024-12-07 225844.jpg",
+            "title": "EFM Marketing 2023/2024",
+            "author": "RABAT-SALÉ-KENITRA",
+            "badge": "1ere Année",
+            "ville": "RABAT-SALÉ-KENITRA",
+            "pdf": "/pdf/Gestion dentroprise/1ere anner/CamScanner-23-06-2024-14.10.pdf"
+          },
+          {
+            "image": "/pdf/Gestion dentroprise/1ere anner/img/La gestion électronique des donner.jpg",
+            "title": " La gestion électronique des données",
+            "author": "RABAT-SALÉ-KENITRA",
+            "badge": "1ere Année",
+            "ville": "RABAT-SALÉ-KENITRA",
+            "pdf": "/pdf/Cours-stagiaire-GED.pdf"
+          },
+          {
+            "image": "/pdf/Gestion dentroprise/1ere anner/img/GE-CF-Cours-CAE.jpg",
+            "title": "Comptabilité et Finance",
+            "author": "Gestion Commerce",
+            "badge": "2ème Année",
+            "ville": "casa",
+            "pdf": "/pdf/GE-CF-Cours-CAE.pdf"
+          },
+          {
+            "image": "/pdf/Gestion dentroprise/1ere anner/img/Capture d’écran 2024-12-08 161201.jpg",
+            "title": "Comptabilité et Finance",
+            "author": "Gestion Commerce",
+            "badge": "3ème Année",
+            "ville": "casa",
+            "pdf": "/pdf/GE-3eme-anner/TSGE_CF-M301-Logiciel-de-gestion-des-immobs-et-de-declarations-fiscales.pdf"
+          }
+        ]
+      }
+    ],
+    "EFFDD": [
+        {
+            "title":"Examen National de Fin d’année Session de Juin 2023 (V1)",
+            "pdf": "/pdf/Développement Digital/2eme anner/EFF/Corrigé DEVOWFS-V1.pdf",
+            "option": "Full-Stack"
+        },
+        {
+            "title":"Examen National de Fin d’année Session de Juin 2023 (V2)",
+            "pdf": "/pdf/Développement Digital/2eme anner/EFF/Corrigé DEVOWFS-V2.pdf",
+            "option": "Full-Stack"
+        },
+        {
+            "title":"Examen De Fin De Formation 2022/2023",
+            "pdf": "/pdf/Développement Digital/2eme anner/EFF/EFF Blanc 2023.pdf",
+            "option": "Full-Stack"
+        },
+        {
+            "title":"Examen De Fin De Formation 2022/2023 (V2)",
+            "pdf": "/pdf/Développement Digital/2eme anner/EFF/effdwfs2023v2.pdf",
+            "option": "Full-Stack"
+        },
+        {
+            "title":"Examen De Fin De Formation 2022/2023 (V1)",
+            "pdf": "/pdf/Développement Digital/2eme anner/EFF/effewfs2023v1 (2).pdf",
+            "option": "Full-Stack"
+        },
+        {
+            "title":"Examen Fin De Formation 2022-2023 Full-Stack",
+            "pdf": "/pdf/Développement Digital/2eme anner/EFF/Exam Fin De Formation_ full Stack .pdf",
+            "option": "Full-Stack"
+        }
+    ]
+}
