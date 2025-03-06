@@ -45,7 +45,8 @@
             "badge": "2eme Année",
             "pdf":"/pdf/EFM Développement Digital/DEV-M107-Corrige (1).pdf"
           }
-        ]
+        ],
+        "url": "/cours.html"
       },
       {
         "title": "Les plus populaires dans Infrastructure Digitale",
@@ -98,7 +99,8 @@
             "ville": "RABAT-SALÉ-KENITRA",
             "pdf":"/pdf/EFM infrastructure digital/EFMR-Fonctionnement-systeme-exploitation-corrige.pdf"
           }
-        ]
+        ],
+        "url": "/cours.html"
       },
       {
         "title": "Les plus populaires dans Gestion des Entreprises",
@@ -151,7 +153,8 @@
             "ville": "casa",
             "pdf": "/pdf/GE-3eme-anner/TSGE_CF-M301-Logiciel-de-gestion-des-immobs-et-de-declarations-fiscales.pdf"
           }
-        ]
+        ],
+        "url": "/cours.html"
       }
     ],
     "EFFDD": [

@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
           sectionHeader.className = "top-content-slides";
           sectionHeader.innerHTML = `
             <h2 style="padding-left: 1rem">${section.title}</h2>
-            <a href="#">Tout voir</a>
+            <a href="${section.url}">Tout voir</a>
           `;
           container.appendChild(sectionHeader);
   

@@ -1,88 +1,3 @@
-
-// Simple JavaScript example (optional)
-// document.addEventListener('DOMContentLoaded', function() {
-//     console.log('DOM fully loaded and parsed');
-
-//     // You can add more functionality here, like event listeners for navigation or form handling
-// });
-
-// -------
-
-// Contact form
-// document.addEventListener('DOMContentLoaded', function() {
-//     const contactForm = document.getElementById('contact-form');
-
-//     contactForm.addEventListener('submit', function(e) {
-//         e.preventDefault();
-
-//         // EmailJS configuration
-//         const serviceID = 'service_wcu590c';
-//         const templateID = 'template_5onhr7g';
-//         const userID = '4ZaBTwoqhW_T6bQFN';
-
-//         const templateParams = {
-//             from_name: document.getElementById('name').value,
-//             from_email: document.getElementById('email').value,
-//             message: document.getElementById('message').value,
-//         };
-
-//         emailjs.send(serviceID, templateID, templateParams, userID)
-//             .then((response) => {
-//                 alert('Email sent successfully!');
-//                 contactForm.reset();
-//             })
-//             .catch((error) => {
-//                 alert('Failed to send email. Please try again later.');
-//                 console.error('EmailJS error:', error);
-//             });
-//     });
-// });
-
-// Culture entrepreneuriale-Partie 1
-// const body = document.getElementById("body");
-// function cultureEntro(){
-//     body.innerHTML = `
-//     <header>
-//         <h2>My Blog</h2>
-//         <nav>
-//             <ul>
-//                 <li><a href="/index.html">Home</a></li>
-//                 <li><a href="/index.html">Cours</a></li>
-//                 <li><a href="/about.html">About</a></li>
-//                 <li><a href="/contact.html">Contact</a></li>
-//             </ul>
-
-//         </nav>
-//         <button>Login</button>
-//     </header>
-
-//     <section class="container">
-//         <h2>Développement Digital</h2>
-//         <a href="/devDigital.html">1ere Année: Développement Digital</a>
-//         <ul>
-//             <li><a href="" onclick="cultureEntro()">Culture entrepreneuriale-Partie 1</a></li>
-//             <li></li>
-//             <li></li>
-//             <li></li>
-//             <li></li>
-//         </ul>
-
-//     </section>
-
-//     <footer>
-//         <p>&copy; 2024 My Blog. All rights reserved.</p>
-//     </footer>
-
-//     `
-// }
-
-// document.getElementById('download-button').addEventListener('click', function() {
-//     var link = document.createElement('a');
-//     link.href = '/CE P1.pdf';
-//     link.download = 'CEP1.pdf';
-//     link.click();
-// });
-
 // Button chios
 const radio1 = document.getElementById("radio1");
 const radio2 = document.getElementById("radio2");
@@ -246,7 +161,7 @@ function headerPages() {
                 <li><a href="/index.html">Accueil</a></li>
                 <li><a href="/cours.html">Cours</a></li>
                 <li><a href="/EFM/EFM-premiere-anne.html">EFM</a></li>
-                <li class="li-parent"><a href="/EFM/EFM-premiere-anne.html">EFF</a> <div class="new-child"><b>New</b></div> </li>
+                <li class="li-parent"><a href="EFF/EFFDD.html">EFF</a> <div class="new-child"><b>New</b></div> </li>
                 <li><a href="/about.html">À propos</a></li>
                 <li><a href="/contact.html">Contact</a></li>
             </ul>
@@ -290,9 +205,7 @@ function footerPages() {
         <div class="footer-col">
           <h4>Newsletter</h4>
           <p>
-            Subscribe to our newsletter for a weekly dose
-            of news, updates, helpful tips, and
-            exclusive offers.
+            Inscrivez-vous à notre newsletter pour recevoir gratuitement les derniers TP, PDF et examens de l'OFPPT directement dans votre boîte mail !
           </p>
           <form action="https://formspree.io/f/myzyobob" method="post">
             <input type="email" name="email" placeholder="Your email" required>

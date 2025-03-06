@@ -312,13 +312,13 @@ aside {
 
 
 
-.containers{
+/* .containers{
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
 .row{
   display: -webkit-box;
@@ -633,7 +633,7 @@ section h1 {
   border: 1px solid #dad9da;
   color: black;
   padding: 1.5rem;
-  width: 70%;
+  width: 97.5%;
 }
 .container h1 {
   text-align: center;
@@ -846,7 +846,10 @@ section h1 {
 }
 
 /* From Uiverse.io by adamgiebl */
-
+a .cssbuttons-io-button{
+  margin-left: auto;
+  margin-right: auto;
+}
 .cssbuttons-io-button {
   background: #00ab6b;
   color: white;
@@ -865,7 +868,6 @@ section h1 {
   position: relative;
   height: 2.8em;
   margin: 0.1rem;
-  text-align: center;
   padding-right: 3.3em;
   cursor: pointer;
 }
@@ -874,7 +876,8 @@ section h1 {
   text-align: center;
 }
 .cssbuttons-io-button .icon {
-  background: white;
+  background: var(--transparentColor);
+  color: var(--primarycolor);
   margin-left: 1em;
   position: absolute;
   display: flex;
@@ -1986,5 +1989,11 @@ a {
   }
   .img-contact{
     display: none;
+  }
+  .InputContainer{
+    width: 90%;
+  }
+  .content-top-search h1{
+    font-size: 16px;
   }
 }
